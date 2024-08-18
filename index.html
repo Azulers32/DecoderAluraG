@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+            <img class="cabecalho__imagem" src="/imgs/Logo Alura.png" alt="logoalura">
+            <h1 class="cabecalho__titulo">Decodificador de texto:</h1>
+        </header>
+        <div class="container__input">
+            <div class="input">
+                <textarea  id="input__texto" placeholder="Digite o Seu Texto Aqui..."></textarea>
+                <p>ATENÇÃO: Apenas letras Maiusculas e sem acento</p>
+            </div>
+            <div id="output">
+                <img src="/imgs/logo Gabriel.png" alt="logo Gabriel">
+                <h2>Sua Mensagem Aparecerá aqui!</h2>
+                <span> Digite um Texto que deseja criptografar ou descriptografrar</span>
+            </div>
+        </div class="botoes">
+         <div class="container__bnt">
+            <button onclick="criptografar ()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar ()" class="btn-descriptografar">Descriptografrar</button>
+         </div>
+        </div>
+    </main>
+    
+    <footer class="rodape">
+        <div class="icons">
+            <a href=""><ion-icon name="logo-github"></ion-icon></a>
+            <h3>Desenvolvido Por Gabriel Borba em parceria com a Alura™</h3>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
